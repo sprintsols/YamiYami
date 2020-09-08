@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <RelativeLayout
+                    android:background="#4ba231"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_60sdp">
+
+
+                    <ImageView
+                        android:id="@+id/imgSetting"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/setting_icon"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        />
+
+                    <RelativeLayout
+                        android:layout_toRightOf="@+id/imgSetting"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/txtTop1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Settings"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_15ssp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            />
+                        <TextView
+                            android:layout_below="@+id/txtTop1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Information &amp; Settings"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_11ssp"
+                            android:textStyle="normal"
+                            android:textColor="#ffffff"
+                            />
+
+
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:background="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_60sdp">
+
+
+                    <ImageView
+                        android:id="@+id/imgDelivery"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:src="@drawable/list_icon"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        />
+
+                    <RelativeLayout
+                        android:layout_toRightOf="@+id/imgDelivery"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/txtTop11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Delivery list"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_11ssp"
+                            android:textStyle="bold"
+                            android:textColor="#2f2f2f"
+                            />
+                        <TextView
+                            android:layout_below="@+id/txtTop11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total orders delivered"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_9ssp"
+                            android:textStyle="normal"
+                            android:textColor="#2f2f2f"
+                            />
+
+
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:background="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_60sdp">
+
+
+                    <ImageView
+                        android:id="@+id/imgWorking"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:src="@drawable/time_icon"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        />
+
+                    <RelativeLayout
+                        android:layout_toRightOf="@+id/imgWorking"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/txtTop112"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Working"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_11ssp"
+                            android:textStyle="bold"
+                            android:textColor="#2f2f2f"
+                            />
+                        <TextView
+                            android:layout_below="@+id/txtTop112"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Work plan"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_9ssp"
+                            android:textStyle="normal"
+                            android:textColor="#2f2f2f"
+                            />
+
+
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:background="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_60sdp">
+
+
+                    <ImageView
+                        android:id="@+id/imgGPS"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:src="@drawable/gps_icon"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        />
+
+                    <RelativeLayout
+                        android:layout_toRightOf="@+id/imgGPS"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/txtTop21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Turn off GPS"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_11ssp"
+                            android:textStyle="bold"
+                            android:textColor="#2f2f2f"
+                            />
+                        <TextView
+                            android:layout_below="@+id/txtTop21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="GPS is off.(Yes or No)"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/_9ssp"
+                            android:textStyle="normal"
+                            android:textColor="#2f2f2f"
+                            />
+
+
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_45sdp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        app:cardUseCompatPadding="true"
+                        android:layout_height="match_parent">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="@dimen/_25sdp"
+                                android:layout_height="@dimen/_25sdp"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/question_icon"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                />
+
+
+                            <ImageView
+                                android:layout_centerHorizontal="true"
+                                android:layout_width="@dimen/_25sdp"
+                                android:layout_height="@dimen/_25sdp"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/off_icon"
+                                />
+
+
+                            <ImageView
+                                android:layout_alignParentRight="true"
+                                android:layout_width="@dimen/_25sdp"
+                                android:layout_height="@dimen/_25sdp"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="@dimen/_10sdp"
+                                android:src="@drawable/flag_icon"
+                                />
+
+
+
+                        </RelativeLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
